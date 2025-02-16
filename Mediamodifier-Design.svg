@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080" baseProfile="tiny-ps">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080" baseProfile="tiny">
     <defs></defs>
 
     <!-- Cercle principal -->
-    <g transform="matrix(1 0 0 1 540 540)">
-        <rect stroke="none" fill="rgb(255,255,255)" vector-effect="non-scaling-stroke" x="-540" y="-540" width="1080" height="1080" />
+    <g transform="translate(540, 540)">
+        <rect stroke="none" fill="rgb(255,255,255)" x="-540" y="-540" width="1080" height="1080" />
     </g>
 
     <!-- Forme principale -->
-    <g transform="matrix(1 0 0 1 540 540)">
+    <g transform="translate(540, 540)">
         <g>
-            <path fill="rgb(1,35,69)" vector-effect="non-scaling-stroke" transform="translate(-106.5, -106.5)" d="M1 84 C1 56 1 28.5 1 1 C71.33 1 141.67 1 212 1 C212 71.33 212 141.67 212 212 C141.67 212 71.33 212 1 212 C1 169.5 1 127 1 84" />
+            <path fill="rgb(1,35,69)" transform="translate(-106.5, -106.5)" d="M1 84 C1 56 1 28.5 1 1 C71.33 1 141.67 1 212 1 C212 71.33 212 141.67 212 212 C141.67 212 71.33 212 1 212 C1 169.5 1 127 1 84" />
         </g>
     </g>
 </svg>
